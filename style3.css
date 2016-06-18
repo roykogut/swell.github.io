@@ -1,0 +1,64 @@
+body
+{
+	body
+{
+  background-image: url('http://www.wavemakers.info/wp-content/uploads/2015/05/wave.jpg');
+  font-family: Sans-Serif;
+  }
+  h1
+  {
+	  color:#00BFFF; 
+	  font-family: Sans-Serif;
+	  font-size:300px;
+	  font-weight:700;
+	  line-height: 2px;
+  }	  
+  p
+  {
+	  color:black	; 
+	  font-family: Sans-Serif;
+	  font-weight:400;
+	  font-size:25px;
+	  line-height: 1px;
+
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+a
+{
+    position: relative;
+    padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+    border-radius: 10px;
+    font-family: Sans-Serif;
+    font-size: 25px;
+    color: #FFF;
+    text-decoration: none;  
+    background-color: #00BFFF;
+    border-bottom: 5px solid #2980B9;
+    text-shadow: 0px -2px #2980B9;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+
+.button-0:hover, 
+.button-0:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-0:active {
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}

@@ -1,0 +1,42 @@
+body
+  {
+  background-image: url('http://www.wavemakers.info/wp-content/uploads/2015/05/wave.jpg');
+  }
+  h1
+  {
+	  color:#00BFFF; 
+	  font-family: Sans-Serif;
+	  font-size:300px;
+	  font-weight:700;
+	  line-height: 2px;
+  }	  
+  p
+  {
+	  color:black	; 
+	  font-family: Sans-Serif;
+	  font-weight:400;
+	  font-size:90px;
+	  line-height: 1px;
+
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family:  Sans-Serif;
+}
+	

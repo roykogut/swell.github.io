@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>spots</title>
+	</head>
+	<body>
+	<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="spots.html">Spots</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="signup.html">Sign Up</a></li>
+		</ul>
+		<center>
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(32.171386,34.796514),
+    zoom:10,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<br/><br/><br/>
+<div align="center" id="googleMap" style="width:1000px;height:760px;"></div>
+
+	<link rel="stylesheet" type="text/css" href="style.css"></link>
