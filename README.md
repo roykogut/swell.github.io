@@ -1,2 +1,2 @@
-# http://swell.github.io
+# https://roykogut.github.io/swell.github.io
 my personal website
